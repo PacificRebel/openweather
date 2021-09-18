@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Heading, Link, Text, Code, Flex, Box } from "@chakra-ui/react"
 import Weather from './Weather'
+import Temperature from './Temperature'
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
         <Flex flexWrap="wrap" alignItems="center" justifyContent="center" maxW="800px" mt="10">
 
           <Box as="a" href="https://nextjs.org/docs" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
-            <Heading as="h3" size="lg" mb="2">      Current weather:  <Weather /></Heading>
+            <Heading as="h3" size="lg" mb="2">      <Weather /></Heading>
             <Text fontSize="lg"></Text>
             </Box>
 
@@ -38,7 +39,7 @@ export default function Home() {
 
 
           <Box as="a" href="https://nextjs.org/learn" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
-            <Heading as="h3" size="lg" mb="2">insert temperature data here</Heading>
+            <Heading as="h3" size="lg" mb="2"><Temperature /></Heading>
             <Text fontSize="lg"></Text>
             </Box>
 

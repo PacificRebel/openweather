@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#bloc1, #bloc2, #bloc3, #bloc4, #bloc5 {
+  display:inline;
+}

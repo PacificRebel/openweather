@@ -20,7 +20,7 @@ class Weather extends Component {
       <div className="weather">
         {this.state.items.map((item) => {
           return (
-            <p>{item["description"]}</p>
+            <p id="bloc1">{item["description"]}</p>
           )
         })}
       </div>
