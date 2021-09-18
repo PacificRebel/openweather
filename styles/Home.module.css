@@ -123,14 +123,3 @@
 .weather {
   text-align: center;
 }
-
-.weather {
-  margin: 0.5em;
-font-family: 'Open Sans', sans-serif;
-border-radius: 25px;
-border: 2px solid black;
-padding: 9px;
-}
-#bloc1, #bloc2, #bloc3, #bloc4, #bloc5 {
-  display:inline;
-}

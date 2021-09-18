@@ -15,6 +15,10 @@ a {
   box-sizing: border-box;
 }
 
+.weather {
+  text-align: center;
+}
+
 #bloc1, #bloc2, #bloc3, #bloc4, #bloc5 {
   display:inline;
 }

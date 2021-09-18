@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Heading, Link, Text, Code, Flex, Box } from "@chakra-ui/react"
+import { Heading, Link, Text, Code, Flex, Box, Center } from "@chakra-ui/react"
 import Weather from './Weather'
 import Temperature from './Temperature'
+import Humidity from './Humidity'
 
 export default function Home() {
   return (
@@ -32,8 +33,8 @@ export default function Home() {
             </Box>
 
           <Box as="a" href="https://www.youtube.com/watch_popup?v=CvOB-Is_yYU&autoplay=1" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
-            <Heading as="h3" size="lg" mb="2">Helsinki live</Heading>
-            <Text fontSize="lg">Click here for live view of Helsinki harbour</Text>
+            <Heading as="h3" size="lg" mb="2"><Center>click for Helsinki live</Center></Heading>
+            <Text fontSize="lg"></Text>
             </Box>
 
 
@@ -44,7 +45,7 @@ export default function Home() {
             </Box>
 
           <Box as="a" href="https://github.com/vercel/next.js/tree/master/examples" p="6" m="4" borderWidth="1px" rounded="lg" flexBasis={['auto', '45%']}>
-            <Heading as="h3" size="lg" mb="2">insert humidity data here</Heading>
+            <Heading as="h3" size="lg" mb="2"><Humidity /></Heading>
             <Text fontSize="lg"></Text>
             </Box>
 
