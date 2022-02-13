@@ -21,9 +21,9 @@ export default function Home() {
         <Link color="teal" href="https://nextjs.org">Helsinki weather</Link>
       </Heading>
 
-      <Text fontSize="xl" mt="2">
-        sub-heading here <Code></Code>
-        </Text>
+      {/*<Text fontSize="xl" mt="2">
+         sub-heading here <Code></Code>
+        </Text>*/}
 
         <Flex flexWrap="wrap" alignItems="center" justifyContent="center" maxW="800px" mt="10">
 

@@ -17,7 +17,7 @@ class Humidity extends Component {
 
     render() {
       const data = this.state.weatherItems
-        console.log(data)
+        // console.log(data)
 
     return (
       <div className="weather">

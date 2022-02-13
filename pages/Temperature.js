@@ -17,7 +17,7 @@ class Temperature extends Component {
 
     render() {
       const data = this.state.weatherItems.temp
-        console.log(data)
+        // console.log(data)
 
     return (
       <div className="weather">
